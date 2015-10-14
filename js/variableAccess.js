@@ -1,6 +1,8 @@
 // This tests a way to prevent a TypeError
 // by using && to test for the existence of a member
 // before accessing its contents
+// inspired by Douglas Crockford's "Javascript: The Good Parts"
+
 
 var innerMap = {'foo':1, 'bar':2};
 var outerMap = {'inner':innerMap};
